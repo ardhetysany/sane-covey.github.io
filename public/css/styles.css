@@ -1,0 +1,40 @@
+body {
+    background-color: #F6F9FA;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.gradient-custom {
+    background: linear-gradient(135deg, #94B4C1, #213448);
+}
+
+.btn-custom {
+    background-color: #94B4C1;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #7ca3b6;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.task-item {
+    background-color: #f4f6f7;
+}
+
+.task-completed {
+    text-decoration: line-through;
+    color: #888;
+}
