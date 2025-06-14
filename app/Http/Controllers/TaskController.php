@@ -13,6 +13,12 @@ class TaskController extends Controller
         return view('tasks.index', compact('tasks'));
     }
 
+    public function edit($id)
+{
+    $task = Task::findOrFail($id);
+    return view('tasks.edit', compact('task'));
+}
+
     public function store(Request $request)
     {
         $request->validate([
